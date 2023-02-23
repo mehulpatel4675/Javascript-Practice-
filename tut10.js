@@ -1,4 +1,4 @@
-console.log('tut10 function scope');
+console.log('tut10 function scope chcnge');
 // function is block of code. which use multiple time by just type the short code insted of too much code
 let name = 'rahul';
 let name1 = 'mehul';
