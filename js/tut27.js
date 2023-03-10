@@ -1,7 +1,7 @@
 console.log('tut 27 object orintention');
 // car running, car.increasespeed. car.anlayzer
 //with templeate only make templeate onces then only declare the 100 car
-// it's called constructore
+// it's called constructor
 
 // simple  object literal for creating object
 let car ={
@@ -27,5 +27,6 @@ function Generalcar(givenName,speed){
 // car will be 100 or more
 car1 = new Generalcar('nissan',180);
 car2 = new Generalcar('kia',120);
-car3 = new Generalcar('alto',80);
-console.log(car);
+car3 = new Generalcar('alto',80)
+car3.analyzer();
+console.log(car3);

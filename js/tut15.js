@@ -6,22 +6,22 @@ let cont = document.querySelector('.no');
 cont = document.querySelector('.container');
 let nodeName = cont.childNodes[0].nodeName;
 let nodeType = cont.childNodes[0].nodeType;
-// console.log(nodeName);
-// console.log(nodeType);
+console.log(nodeName);
+console.log(nodeType);
 // console.log(cont.childNodes);//space + comment
-console.log(cont.children);//only element show
+// console.log(cont.children);//only element show
 
 let container = document.querySelector('.container');
-console.log(container.children[1].children[0].children); 
-console.log(container.firstChild);
-console.log(container.firstElementChild);
-console.log(container.lastChild);
-console.log(container.lastElementChild);
-console.log(container.childElementCount);//gave child element child
-console.log(container.firstElementChild);
-console.log(container.firstElementChild.parentNode);
-console.log(container.firstElementChild.nextSibling);
-console.log(container.firstElementChild.nextElementSibling.nextElementSibling);
+// console.log(container.children[1].children[0].chisldren); 
+// console.log(container.firstChild);
+// console.log(container.firstElementChild);
+// console.log(container.lastChild);
+// console.log(container.lastElementChild);
+// console.log(container.childElementCount);//gave child element child
+// console.log(container.firstElementChild);
+// console.log(container.firstElementChild.parentNode);
+// console.log(container.firstElementChild.nextSibling);
+// console.log(container.firstElementChild.nextElementSibling.nextElementSibling);
 //all use to select element in dom
 
 

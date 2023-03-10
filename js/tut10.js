@@ -29,8 +29,8 @@ const myobj = {
 
 arr = ['fruit','vegis','furniture'];
 arr.forEach (function(element,index,array){
-    console.log(element,array,index);
-    console.log(element,index);
+    // console.log(element,index,array);
+    // console.log(element,index);
 
 })
 
@@ -39,10 +39,10 @@ arr.forEach (function(element,index,array){
 // let and const has block level scope
 //var has Funvtion level scope.
 let i = 234;
-// console.log(i);
+console.log(i);
 function ui(name){
     i = 9;
-    // console.log(i);
+    console.log(i);
     return `This is a ${name} ui`;
 }
-    // console.log(ui("mehul"),i);
+    console.log(ui("mehul"),i);

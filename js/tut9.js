@@ -9,11 +9,20 @@ console.log('tut 9 loops');
 // a++;//36
 // // console.log(a);
 var c = ' '
-for(var i=1; i<=5; i++){
-
-    for(var a=1; a<=5; a++){
-        // document.write(i);
-        document.write(a);
+var n = 3
+for(var row=0; row<=n; row++){//this loop for row
+    
+    var totalcolsinrow = row > n? n - row:row;
+    // console.log(totalcolsinrow);
+    var noofspace = n - totalcolsinrow;
+    console.log(noofspace);
+    for(var s=0; s<noofspace; s++){// this loop for space
+        document.write("&nbsp");
+    }
+    for(var col=0; col<=totalcolsinrow; col++){ // this loop for col
+        // document.write(c);
+        document.write("*"); 
+       
         
     }document.write("<br />") 
     
@@ -57,3 +66,37 @@ let obj ={
 for(let key in obj){
     // console.log(`The ${key} of Object is ${obj[key]}`)
 }
+
+
+// for(i=1 ; i<=5; i++){
+//     document.write(i);
+// }
+// var inputValue=5;
+// for(var i=1 ; i<=inputValue; i++){// loop fro row
+
+  
+//     for(var space=0; space < inputValue-1; space++){
+//         document.write("&nbsp");
+//     }
+
+//     for (var row = 0; row < i; row++) { // loop for col
+
+//         document.write("*");        
+//     }
+//     document.write("<br>")
+// }
+
+// let n = 5;
+// let string = "";
+// for (let i = 1; i <= n; i++) {
+//   // printing spaces
+//   for (let j = 0; j < n - i; j++) {
+//     string += " ";   
+//   }
+//   // printing star
+//   for (let k = 0; k < i; k++) {
+//     string += "*";
+//   }
+//   string += "\n";
+// }
+// console.log(string);

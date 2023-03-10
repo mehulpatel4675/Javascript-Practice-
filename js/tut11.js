@@ -1,9 +1,9 @@
 console.log('tut11 document object model DOM');
 let a1 = window;
-console.log(a1);
+// console.log(a1);
 // alert('hi mehul');
-a = prompt('this is prompt');
-console.log(a);
+// a = prompt('this is prompt');
+// console.log(a);
 // prompt take the input from user and  save into the varaible
 // a = confirm('are you sure to delete');
 // let a = window.document;
@@ -13,5 +13,6 @@ console.log(a);
 //  a = scrollY;
 //  a = location.href='www.facebook.com';
 //  a = location.toString();
+console.log(a);
 // console.log(a);
 

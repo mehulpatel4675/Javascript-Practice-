@@ -1,8 +1,8 @@
 console.log('tut18 More About event');
-for (let i = 0; i < 5; i++) {
+// for (let i = 0; i < 5; i++) {
     
-    alert('ho')
-}
+//     alert('ho')
+// }
 let btn = document.getElementById('btn');
 btn.addEventListener('click',func1);
 btn.addEventListener('dblclick', func2);
@@ -32,10 +32,10 @@ uleffect = document.getElementById('myul').addEventListener('mouseleave',functio
         myul.style.color = 'green';
 });
 
-// let myclass2 = document.getElementById('myclass2').addEventListener('mousedown',function(){
-//     console.log('you are  activat the mouse down event');
-//     // mouse down is simillar like mouse click 
-// });
+let myclass2 = document.getElementById('myclass2').addEventListener('mousedown',function(){
+    console.log('you are  activat the mouse down event');
+    // mouse down is simillar like mouse click 
+});
 
 
 

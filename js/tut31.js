@@ -1,4 +1,4 @@
-console.log('tut31 es6 classes & Inheritance');
+ console.log('tut31 es6 classes & Inheritance');
 //calss:- blue print 
 class Employee{
 	constructor(givenName,givenExperiance,givenDivision){
@@ -27,7 +27,7 @@ console.log(Employee.add(3,5));
 class programmer extends Employee {
 	constructor(givenName,givenExperiance,givenDivision,givenLanguage,github){
 		super(givenName,givenExperiance,givenDivision);
-		//super means last constructore value
+		//super means last constructore value(last class constructore) 
 		this.language = givenLanguage;
 		this.github = github;
 	}

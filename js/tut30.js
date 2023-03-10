@@ -36,14 +36,14 @@ Employee.prototype.slogan = function(){
 //object  (create)
 let harryobj = new Employee("harry",345555,18);
 console.log(harryobj.slogan());
-// console.log(harryobj);
+
 
 //programmer
 function programmer(name,salary,experiance,language){
 	Employee.call(this,name,salary,experiance);
 	this.language = language;
 }
-// console.log(programmer);
+console.log(programmer);
 
 //inheritance (for Employee slogan also work in Programmer)
 programmer.prototype = Object.create(Employee.prototype);
@@ -51,7 +51,7 @@ programmer.prototype = Object.create(Employee.prototype);
 programmer.prototype.constructor = programmer;
 
 let Mehul = new programmer("Zabkil",270000000,1,"full Stack Devloper");
-console.log(Mehul.slogan());
+// console.log(Mehul);
 
 
 // make  a food  object
@@ -66,7 +66,7 @@ const food  = {
 		return `it's useful in make a cake`;
 	}
 }
-console.log(food)
+// console.log(food)
 // above declared only
 
 //Make a object
@@ -83,10 +83,10 @@ function cake(type,size){
 	cake.size=size;
 }
 //add type in food 
-cake.prototype.type = function(){
-	return `we keep the nonVeg cake also ${cake.type}`
-}
-console.log(cake);
+// cake.prototype.type = function(){
+// 	return `we keep the nonVeg cake also ${cake.type}`
+// }
+// console.log(cake);
 
-let chochip = new cake('nonveg','fullcream');
+let chochip = new cake('nonveg','1');
 console.log(chochip)

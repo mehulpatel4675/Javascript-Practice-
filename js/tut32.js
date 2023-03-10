@@ -1,4 +1,4 @@
-console.log('tut32 librabry practise');
+console.log('tut32 library practise');
 // create class library
 // implement    function getbooklist()(see allthe book list when it called)
 //constructore must take the book list as an arugumrnt 
@@ -22,7 +22,7 @@ class Lab {
 		return this.user -this.issuebook 
 		//user - these book als plus in booklist
 	}
-}
+}// make the class as per use
 console.log(Lab)
 //object
 m = new Lab("msp","111","all");

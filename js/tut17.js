@@ -20,11 +20,13 @@ document.getElementById('ful').addEventListener('mousemove',function(e2){
     var1 = e2.target.className;    
     console.log(var1);
     // var2=location.reload();
-    console.log(var2);
+    // console.log(var2);
 
 });
-document.getElementById('myclass2').addEventListener('dblclick',function(e3){
+
+document.getElementById('ttest').addEventListener('dblclick',function(e3){
         console.log('its double clixk event 3');
-        var1 = e3.target.className;
+        document.getElementById("ttest").innerHTML = "123456789-;"
+        var1 = e3.target.id;
         console.log(var1);
 });

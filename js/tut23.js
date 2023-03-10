@@ -21,7 +21,7 @@ z=Math.random();
 z=100*Math.random();
 z=50+(100-50)*Math.random();//50 thi 100 ma random num
 z=Math.ceil(50+(100-50)*Math.random());// 50-100 intger
-// x=(0,1);
+x=(0,1);
 // x100 =x*100 = (0,100);
 // x10_100 = 10+a*(100-10)
 console.log(z);
