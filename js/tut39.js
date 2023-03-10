@@ -1,4 +1,4 @@
-console.log("tut 39 prmise()");
+console.log("tut 39 promise()");
 // resolve
 // reject 
 // pending
